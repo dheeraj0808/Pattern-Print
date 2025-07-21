@@ -1,6 +1,6 @@
 
 let rows = 5;
-// right angle triangle
+// 1.right angle triangle
 for (let i = 1; i <= rows; i++) {
     let star = '';
     for (let j = 1; j <= i; j++) {
@@ -8,7 +8,8 @@ for (let i = 1; i <= rows; i++) {
     }
     console.log(star);
 }
-// Inverted triangle pattern
+console.log(" ");
+// 2.Inverted triangle pattern
 
 
 for (let i = rows; i >= 1; i--) {
@@ -18,3 +19,14 @@ for (let i = rows; i >= 1; i--) {
     }
     console.log(star);
 }
+console.log(" ");
+// 3.Right alligne triangle
+for (let i = 1; i <= rows; i++) {
+    let star = " ";
+    for (let j = 1; j <= rows - i; j++) star += " ";
+    for (let k = 1; k <= i; k++) star += "*";
+    console.log(star);
+}
+console.log(" ");
+//4. 
+
