@@ -46,5 +46,8 @@ for (let i = 1; i <= 4; i++) {
         star += ' *';
     }
     console.log(star);
-}
+} 
+console.log(" ");
+
+// 6.
 
