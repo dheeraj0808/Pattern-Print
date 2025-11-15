@@ -11,12 +11,12 @@ for (let i = 1; i < rows; i++) {
 }
 console.log(" ");
 //2.right angle triangle with number
-for(let i=1;i<rows;i++){
-    let number='';
-    for(let j=1;j<=i;j++){
-        number+='* ';
+for (let i = 1; i < rows; i++) {
+    let number = '';
+    for (let j = 1; j <= i; j++) {
+        number += '* ';
     }
-    console.log(j+1)
+    console.log(j + 1)
 }
 
 // 3.Inverted triangle pattern
@@ -42,7 +42,7 @@ console.log(" ");
 for (let i = 1; i <= rows; i++) {
     let star = " ";
     for (let j = 1; j <= rows; j++) {
-        star =star + '* '
+        star = star + '* '
     }
     console.log(star);
 }
@@ -55,7 +55,7 @@ for (let i = 1; i <= 4; i++) {
         star += ' *';
     }
     console.log(star);
-} 
+}
 console.log(" ");
 
 // 7.
