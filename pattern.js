@@ -58,5 +58,13 @@ for (let i = 1; i <= 4; i++) {
 }
 console.log(" ");
 
-// 7.
+// 7. reverse of right angled triangle with increaseing number in row
+for (let i = 0; i <= 5; i++) {
+    let row = ""
+    for (let j = 0; j <= n - i; j++) {
+        row = row + (j + 1);
+    }
+    console.log(row)
+}
+
 
