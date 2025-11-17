@@ -66,5 +66,11 @@ for (let i = 0; i <= 5; i++) {
     }
     console.log(row)
 }
-
-
+// 8. reverse of right angled triangle with *
+for (let i = 0; i <= 5; i++) {
+    let row = ""
+    for (let j = 0; j <= n - i; j++) {
+        row = row + (*);
+    }
+    console.log(row)
+}
