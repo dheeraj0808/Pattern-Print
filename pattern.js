@@ -1,76 +1,98 @@
 
-let rows = 5;
+// let rows = 5;
 
-// 1.right angle triangle
-for (let i = 1; i < rows; i++) {
+// // 1.right angle triangle
+// for (let i = 1; i < rows; i++) {
+//     let star = '';
+//     for (let j = 1; j <= i; j++) {
+//         star += '* ';
+//     }
+//     console.log(star);
+// }
+// console.log(" ");
+// //2.right angle triangle with number
+// for (let i = 1; i < rows; i++) {
+//     let number = '';
+//     for (let j = 1; j <= i; j++) {
+//         number += '* ';
+//     }
+//     console.log(j + 1)
+// }
+
+// // 3.Inverted triangle pattern
+// for (let i = rows; i >= 1; i--) {
+//     let star = '';
+//     for (let j = 1; j <= i; j++) {
+//         star += '* ';
+//     }
+//     console.log(star);
+// }
+// console.log(" ");
+
+// // 4.Right allign triangle
+// for (let i = 1; i <= rows; i++) {
+//     let star = " ";
+//     for (let j = 1; j <= rows - i; j++) star += " ";
+//     for (let k = 1; k <= i; k++) star += "* ";
+//     console.log(star);
+// }
+// console.log(" ");
+
+// //5. square code
+// for (let i = 1; i <= rows; i++) {
+//     let star = " ";
+//     for (let j = 1; j <= rows; j++) {
+//         star = star + '* '
+//     }
+//     console.log(star);
+// }
+// console.log(" ");
+
+// //6. rectangle code 
+// for (let i = 1; i <= 4; i++) {
+//     let star = "";
+//     for (let j = 1; j <= 6; j++) {
+//         star += ' *';
+//     }
+//     console.log(star);
+// }
+// console.log(" ");
+
+// // 7. reverse of right angled triangle with increaseing number in row
+// for (let i = 0; i <= 5; i++) {
+//     let row = ""
+//     for (let j = 0; j <= n - i; j++) {
+//         row = row + (j + 1);
+//     }
+//     console.log(row)
+// }
+// // 8. reverse of right angled triangle with *
+// for (let i = 0; i <= 5; i++) {
+//     let row = ""
+//     for (let j = 0; j <= n - i; j++) {
+//         row = row + ('*');
+//     }
+//     console.log(row)
+// }
+
+
+
+
+// practising patten print on nov 24
+// for (let i = 0; i < 5; i++) {
+//     let star = ' ';
+//     for (let j = 0; j <= i; j++) {
+//         star += ' *'
+//     }
+//     console.log(star);
+// }
+// reverse tringle
+let rows = 5
+for (let i = 0; i < rows; i++) {
     let star = '';
-    for (let j = 1; j <= i; j++) {
-        star += '* ';
+    for (let j = 0; j < rows - i - 1; j++) {
+       star += ' ';
     }
+    for(let k=0;)
     console.log(star);
-}
-console.log(" ");
-//2.right angle triangle with number
-for (let i = 1; i < rows; i++) {
-    let number = '';
-    for (let j = 1; j <= i; j++) {
-        number += '* ';
-    }
-    console.log(j + 1)
-}
-
-// 3.Inverted triangle pattern
-for (let i = rows; i >= 1; i--) {
-    let star = '';
-    for (let j = 1; j <= i; j++) {
-        star += '* ';
-    }
-    console.log(star);
-}
-console.log(" ");
-
-// 4.Right allign triangle
-for (let i = 1; i <= rows; i++) {
-    let star = " ";
-    for (let j = 1; j <= rows - i; j++) star += " ";
-    for (let k = 1; k <= i; k++) star += "* ";
-    console.log(star);
-}
-console.log(" ");
-
-//5. square code
-for (let i = 1; i <= rows; i++) {
-    let star = " ";
-    for (let j = 1; j <= rows; j++) {
-        star = star + '* '
-    }
-    console.log(star);
-}
-console.log(" ");
-
-//6. rectangle code 
-for (let i = 1; i <= 4; i++) {
-    let star = "";
-    for (let j = 1; j <= 6; j++) {
-        star += ' *';
-    }
-    console.log(star);
-}
-console.log(" ");
-
-// 7. reverse of right angled triangle with increaseing number in row
-for (let i = 0; i <= 5; i++) {
-    let row = ""
-    for (let j = 0; j <= n - i; j++) {
-        row = row + (j + 1);
-    }
-    console.log(row)
-}
-// 8. reverse of right angled triangle with *
-for (let i = 0; i <= 5; i++) {
-    let row = ""
-    for (let j = 0; j <= n - i; j++) {
-        row = row + (*);
-    }
-    console.log(row)
 }
